@@ -1,0 +1,38 @@
+//Less goes here
+@import "bootstrap.less";
+
+//colors
+@text-color: #333;
+@inverted-text-color: #DDD;
+@brand-primary:	#3AA2C2;
+@brand-success: #09e4e8;
+@headings-color: #333;
+@jumbotron-bg: lighten(@brand-primary, 25%);
+//@jumbotron-color: @inverted-text-color;
+
+//headings
+@headings-font-family:    'Oswald', Georgia, @font-family-sans-serif;
+@headings-font-weight:	  normal;
+@headings-line-height: 1.2;
+
+//font typography
+@font-size-base: 16px;
+@font-family-sans-serif:  Lato, "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+body {     
+     padding-top:@navbar-height;
+}
+
+//navbar transition
+.hover-navbar {
+  -webkit-transition: opacity 0.25s;
+  transition: opacity 0.25s;
+  opacity: 0.0;
+}
+
+.hover-navbar:hover {
+  opacity: 1.0;
+}
+
+

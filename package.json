@@ -1,0 +1,41 @@
+{
+    "name" : "My Struts",
+    "description": "A website",
+    "version" : "0.1.0",
+    "homepage": "https://github.com/whitead/my-struts",
+    "contributors" :  [
+	{
+	    "name": "Andrew D White",
+	    "url": "http://thewhitelab.org",
+	    "email": "andrew.white@rochester.edu"
+	}
+	],
+    "private" : true,
+    "main": "Gruntfile.js",
+    "engines": {
+	"node": ">= 0.8.0"
+    },
+    "scripts": {
+	"test": "grunt test"
+    },    
+    "devDependencies": {
+	"grunt-contrib-handlebars": "*",
+	"grunt-contrib-jshint": "~0.10.0",
+	"grunt-contrib-clean": "~0.4.0a",
+	"grunt-contrib-uglify": "*",
+	"grunt-contrib-watch": "*",
+	"grunt-contrib-copy": "~0.4.0",
+	"grunt-contrib-connect": "*",
+	"grunt-contrib-concat": "*",
+	"grunt-contrib-less": "*",
+	"grunt-htmlhint": "*",
+	"grunt-html-build": "*",
+	"grunt-shell": "*",
+	"matchdep": "*",
+	"grunt": "~0.4.0rc2"
+    },
+    "repository": {
+	"type": "git",
+	"url": "git://github.com/whitead/my-struts.git"
+    }
+}
